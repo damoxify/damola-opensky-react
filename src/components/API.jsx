@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 
 function API() {
   const [data, setData] = useState([]);
-  const [inputs, setInputs] = useState({});
 
   //Get Method
   const apiGet = () => {
