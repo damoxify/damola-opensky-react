@@ -16,33 +16,7 @@ function API() {
       });
   };    
 
-  //Post Method
-  // const apiPost = async () => {
-  //   await fetch("https://opensky-network.org/api", {
-  //     method: "POST",
-  //     body: JSON.stringify({
-  //       title: inputs.title,
-  //       body: inputs.body,
-  //       userId: parseInt(inputs.userId),
-  //     }),
-  //     headers: {
-  //       "Content-type": "application/json; charset=UTF-8",
-  //     },
-  //   })
-  //     .then((response) => response.json())
-  //     .then((json) => console.log(json));
-  // };
 
-  // const handleChange = (event) => {
-  //   event.persist();
-  //   setInputs((inputs) => ({
-  //     ...inputs,
-
-  //     [event.target.name]: event.target.value,
-  //   }));
-  // };
-
-  
 
     useEffect(() => {
       apiGet();
