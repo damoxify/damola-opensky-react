@@ -16,6 +16,7 @@ function App() {
   return (
 
     <Router>
+      <API/>
       
       <Home/>
       <div className='App'>

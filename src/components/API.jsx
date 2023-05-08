@@ -26,7 +26,7 @@ function API() {
       My API <br />
       <button  onClick={apiGet}>Fetch API</button>
       <br />
-      {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
+      <pre>{JSON.stringify(data, null, 2)}</pre>
       {data.length > 0 && (
  
         <ul>
